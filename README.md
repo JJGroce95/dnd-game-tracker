@@ -28,8 +28,48 @@ Directory Structure
 
 -dnd-game-tracker
   -readme
-  -main.cpp
-  -other .cpp files
+  -src
+	-.cpp files
 
 
+
+
+
+
+
+Meeting Minutes
+
+#meeting minutes template#
+Call to order 
+
+A meeting of [Organization or team name] was held at [Location] on [Date]. 
+
+Attendees 
+
+Attendees included [list attendee names]. 
+
+Members not in attendance 
+
+Members not in attendance included [list names]. 
+
+Reports 
+
+[Need to add your own headings or more text? No problem. On the Home tab of the ribbon, check out the Styles gallery to easily apply any text formatting you see in this document.] 
+
+Unfinished business 
+
+[Add your text here.] 
+
+New business 
+
+[Add your text here.] 
+
+Announcements 
+
+[Add your text here.]
+#end of template
+
+Initial Meeting - 9/25/2022
+Attendees - all
+Report - discussed project, worked on first deliverable
 
