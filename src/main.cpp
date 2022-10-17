@@ -1,38 +1,50 @@
 #include <iostream>
-#include <newGame.h>
-#include <loadGame.h>
-using namespace std;
 
-int main(int argc, char **argv)
+#include <iostream>
+
+int main(int argc, char *argv[])
 {
-    int input = 1;
 
-    while (input != 0)
+    while (argv[0] != "exit")
     {
-        cout << "[1] LOAD GAME";
-        cout << "[2] NEW GAME";
-        cout << "[0] EXIT";
-        cin >> input;
-        switch (input)
+        static char *firstCommand = argv[0];
+        // need to change command to case does not matter
+
+        // Dice Roll Command
+        if (firstCommand == "roll")
         {
-        case 1:
-            // Load Game
-            // if there is a saved game:
-            loadGame();
-
-            // no saved games:
-            cout << "No saved games " << input;
-
-            break;
-        case 2:
-            // New Game
-            // creates new load game object
-            newGame game;
-
-            break;
-
-        default:
-            // code block
+            if (argv[1])
+            {
+                // check next argument
+            }
+        }
+        // Add Character Command
+        else if (firstCommand == "add")
+        {
+        }
+        // Remove Character Command
+        else if (firstCommand == "remove")
+        {
+        }
+        // Initiative Command
+        else if (firstCommand == "initiative")
+        {
+        }
+        // Skill check Command
+        else if (firstCommand == "check")
+        {
+        }
+        // Ability Save Command
+        else if (firstCommand == "save")
+        {
+        }
+        // Action Command
+        else if (firstCommand == "action")
+        {
+        }
+        // Help Command
+        else if (firstCommand == "help")
+        {
         }
     }
 
